@@ -35,6 +35,8 @@ z1.addEventListener("input", () => {
 
 📸 Screenshot
 https://github.com/Meenakshi-commits/Z-Index/blob/7dff0f5f79f88be30442572721c57eb0d7c9f5f6/Screenshot%202025-08-07%20125430.png
+https://github.com/Meenakshi-commits/Z-Index/blob/d1969f6ebfbd632a47c085332cbfab741b7a8702/Screenshot%202025-08-07%20125458.png
+
 
 
 project-folder/

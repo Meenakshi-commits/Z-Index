@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #f3f3f3;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 18px;
+}
+
+input[type="range"] {
+  width: 100px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.box1 {
+  background-color: crimson;
+  top: 150px;
+  left: 100px;
+  z-index: 1;
+}
+
+.box2 {
+  background-color: darkblue;
+  top: 200px;
+  left: 150px;
+  z-index: 2;
+}
+
+.box3 {
+  background-color: darkgreen;
+  top: 250px;
+  left: 200px;
+  z-index: 3;
+}

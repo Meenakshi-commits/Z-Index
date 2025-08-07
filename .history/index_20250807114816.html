@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Z-Index Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Z-Index Playground 🎯</h1>
+
+  <div class="controls">
+    <div>
+      🔴 Red Box: 
+      <input type="range" min="-10" max="10" value="1" id="z1" />
+      <span id="z1-value">1</span>
+    </div>
+    <div>
+      🔵 Blue Box:
+      <input type="range" min="-10" max="10" value="2" id="z2" />
+      <span id="z2-value">2</span>
+    </div>
+    <div>
+      🟢 Green Box:
+      <input type="range" min="-10" max="10" value="3" id="z3" />
+      <span id="z3-value">3</span>
+    </div>
+  </div>
+
+  <div class="box box1">z-index: 1</div>
+  <div class="box box2">z-index: 2</div>
+  <div class="box box3">z-index: 3</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

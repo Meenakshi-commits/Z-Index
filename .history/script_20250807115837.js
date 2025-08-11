@@ -1,0 +1,1 @@
+const box1 = document.getElementById('box1');
